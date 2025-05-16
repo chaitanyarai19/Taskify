@@ -42,14 +42,15 @@ npm run dev
 npm run build
 ```
 
-**Project Structure**
-src/App.jsx: Main app logic and state management.
-src/components/AddTask.jsx: Form for adding tasks.
-src/components/TaskList.jsx: Renders the list of tasks.
-src/components/TaskItem.jsx: Individual task with styled-components and conditional logic.
-src/components/TaskItem.module.css: CSS Module for scoped styles.
+## Project Structure
+
+- **src/App.jsx:** Main app logic and state management.
+- **src/components/AddTask.jsx:** Form for adding tasks.
+- **src/components/TaskList.jsx:** Renders the list of tasks.
+- **src/components/TaskItem.jsx:** Individual task with styled-components and conditional logic.
+- **src/components/TaskItem.module.css:** CSS Module for scoped styles.
 
 **Styling**
-Tailwind CSS: Used for utility classes in forms and buttons.
-CSS Modules: Scoped styles for task items.
-styled-components: Dynamic styling based on props.
+- **Tailwind CSS:** Used for utility classes in forms and buttons.
+- **CSS Modules:** Scoped styles for task items.
+- **styled-components:** Dynamic styling based on props.
